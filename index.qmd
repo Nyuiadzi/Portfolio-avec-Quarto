@@ -1,0 +1,17 @@
+---
+title: "Nyuiadzi ZIKPI"
+image: "images/photo_identite.jpg"
+about:
+  template: jolla
+  image-width: 10cm
+  image-shape: round
+  links:
+  - icon: linkedin
+    text: linkedin
+    href: https://www.linkedin.com/in/nyuiadzi-zikpi-71730368
+  - icon: github
+    text: Github
+    href: https://github.com/Nyuiadzi
+---
+
+Économiste \| Expert en décentralisation, gouvernance et développement local \| Marketing territorial \| Planification stratégique \| Gestion de projets/programmes \| Analyse de données.

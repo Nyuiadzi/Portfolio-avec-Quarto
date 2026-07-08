@@ -1,0 +1,29 @@
+---
+title: "Analyse et visualisation"
+author: "Nyuiadzi"
+date: "2026-07-06"
+categories: [code, analysis, visualization]
+image: "plot2.png"
+---
+
+Dans cet article de vous présente une analyse et visualisation des commandes
+
+```{r}
+Produit <- c("Mais", "Igname", "Haricot", "Orange", "Riz")
+Quantite <- c(20, 50, 60, 90, 10)
+
+achat <- data.frame(
+  Produit = Produit,
+  Quantite = Quantite
+)
+
+achat
+```
+
+```{r}
+library(ggplot2)
+
+achat |> 
+ggplot(aes(x = Produit, y = Quantite, fill = "Produit"))+
+         geom_col()
+```
