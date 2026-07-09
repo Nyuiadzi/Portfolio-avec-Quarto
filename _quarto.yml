@@ -5,6 +5,17 @@ website:
   description: "A blog built with Quarto"
   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "Portfolio avec Quarto"
+  favicon: "images/photo_identite.jpg"
+  
+  page-footer:
+    center: |
+      [Contact Nyuiadzi ZIKPI](mailto:nyuiadzi@gmail.com)
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/Nyuiadzi/Portfolio-avec-Quarto)
+    background: "#2780e3"
+  
   navbar:
     left:
       - text: Home
@@ -23,9 +34,18 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: cosmo
+      dark: darkly
+      # ou dark: [cosmo, theme_dark_custom.scss] "personnalisation avec un fichier scss"
     css: styles.css
+    code-link: true # personnalisation du bloc de code. Ici clic sur la fonction renvoie vers sa documentation
+    code-fold: show # replier ou non le bloc de code
+    # code-tools: true # pour afficher ou nom tous les blocs de code ou voir l'ensemble du code
+    # code-block-bg: "lightblue" # possibilité de personnaliser l'arrière plan du bloc de code
+    code-block-border-left: "#31BAE9" # pour avoir une ligne verticale à gauche du bloc de code
+    # highlight-style: github # faire correspondre le bloc de code au thème de la page
 
 editor: visual
+
+# Pour publier le site sur quarto, utiliser le code suivant dans le terminal : "quarto publish quarto-pub"
 
