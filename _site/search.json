@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "ZIKPI Komi Nyuiadzi",
+    "section": "",
+    "text": "o Appui-conseil en gouvernance et développement économique local ;\n\no Appui-conseil en stratégie financière et mobilisation des ressources locales ;\n\no Gestion de projets et d’activités programmatiques ;\n\no Conception de projet et mobilisation de ressources ;\n\no Planification prenant en compte les enjeux majeurs (genre/inclusion) ;\n\no Audit organisationnel et institutionnel des collectivités locales ;\n\no Gestion axée sur les résultats et approche changement ;\n\no Collecte, traitement et analyse de données."
+  },
+  {
+    "objectID": "resume.html#compétences-clés",
+    "href": "resume.html#compétences-clés",
+    "title": "ZIKPI Komi Nyuiadzi",
+    "section": "",
+    "text": "o Appui-conseil en gouvernance et développement économique local ;\n\no Appui-conseil en stratégie financière et mobilisation des ressources locales ;\n\no Gestion de projets et d’activités programmatiques ;\n\no Conception de projet et mobilisation de ressources ;\n\no Planification prenant en compte les enjeux majeurs (genre/inclusion) ;\n\no Audit organisationnel et institutionnel des collectivités locales ;\n\no Gestion axée sur les résultats et approche changement ;\n\no Collecte, traitement et analyse de données."
+  },
+  {
+    "objectID": "resume.html#profil",
+    "href": "resume.html#profil",
+    "title": "ZIKPI Komi Nyuiadzi",
+    "section": "Profil",
+    "text": "Profil\no BAC+5 en Economie, option aménagement du territoire et gestion des collectivités territoriales ;\n\no 15 ans d’expérience en matière de l’élaboration de stratégie financière, planification budgétaire, mobilisation et gestion des ressources financières collectivités territoriales ;\n\no 6 ans d’expériences en appui-accompagnement des collectivités territoriales en développement économique local ;\no 15 ans d’expérience professionnelle en préparation de proposition de projets/programmes en vue de la recherche de financement et plaidoyer auprès des bailleurs de fonds internationaux ;\no 6 ans d’expériences cumulées en tant que spécialiste en gestionnaire de projets ;\no 5 ans d’expériences cumulées en analyse de données socioéconomiques dans le cadre des diagnostics pour la territorialisation des ODD ;\no Excellente capacité en analyse, synthèse, rédaction de rapports techniques et de suivi ;\no 2 ans d’expériences en matière d’activités de gestion des connaissances et de capitalisation, notamment en appui à la mobilisation de ressources et la gestion financière des points d’eau ;\no Excellente capacité en gestion relationnelle avec les autorités publiques et les partenaires techniques et financiers ;\no Excellente maitrise du contexte togolais en matière de gouvernance et mise en œuvre de politiques de développement."
+  },
+  {
+    "objectID": "resume.html#scolarité-et-diplômes",
+    "href": "resume.html#scolarité-et-diplômes",
+    "title": "ZIKPI Komi Nyuiadzi",
+    "section": "Scolarité et diplômes",
+    "text": "Scolarité et diplômes\n\n\n\n\n\n\n\n\n\nDiplôme\nAnnée\nInstitution\nLieu\n\n\n\n\nDESS en Economie, option Aménagement du Territoire et Gestion des Collectivités Territoriales\n2008-2010\nUniversité de Lomé, Faculté des sciences économiques et de gestion (FASEG)\nLomé, Togo\n\n\nMaîtrise en Sciences économiques\n2007-2008\nUniversité de Lomé, Faculté des sciences économiques et de gestion (FASEG)\nLomé, Togo\n\n\nLicence en Sciences économiques\n2006-2007\nUniversité de Lomé, Faculté des sciences économiques et de gestion (FASEG)\nLomé, Togo\n\n\nBaccalauréat série D\n2001-2002\nCollège protestant de Kpalimé\nKpalimé, Togo."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nyuiadzi ZIKPI",
+    "section": "",
+    "text": "Économiste | Expert en décentralisation, gouvernance et développement local | Marketing territorial | Planification stratégique | Gestion de projets/programmes | Analyse de données."
+  },
+  {
+    "objectID": "posts/post-with-code-plot/index.html",
+    "href": "posts/post-with-code-plot/index.html",
+    "title": "Analyse et visualisation",
+    "section": "",
+    "text": "Dans cet article de vous présente une analyse et visualisation des commandes\n\n\nCode\nProduit &lt;- c(\"Mais\", \"Igname\", \"Haricot\", \"Orange\", \"Riz\")\nQuantite &lt;- c(20, 50, 60, 90, 10)\n\nachat &lt;- data.frame(\n  Produit = Produit,\n  Quantite = Quantite\n)\n\nachat\n\n\n  Produit Quantite\n1    Mais       20\n2  Igname       50\n3 Haricot       60\n4  Orange       90\n5     Riz       10\n\n\n\n\nCode\nlibrary(ggplot2)\n\nachat |&gt; \nggplot(aes(x = Produit, y = Quantite, fill = \"Produit\"))+\n         geom_col()"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 6, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyse et visualisation\n\n\n\ncode\n\nanalysis\n\nvisualization\n\n\n\n\n\n\n\n\n\nJul 6, 2026\n\n\nNyuiadzi\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 3, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  }
+]
