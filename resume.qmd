@@ -65,7 +65,7 @@ o Excellente maitrise du contexte togolais en matière de gouvernance et mise en
 ## Scolarité et diplômes
 
 | Diplôme | Année | Institution | Lieu |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | DESS en Economie, **option** Aménagement du Territoire et Gestion des Collectivités Territoriales | 2008-2010 | Université de Lomé, Faculté des sciences économiques et de gestion (FASEG) | Lomé, Togo |
 | Maîtrise en Sciences économiques | 2007-2008 | Université de Lomé, Faculté des sciences économiques et de gestion (FASEG) | Lomé, Togo |
 | Licence en Sciences économiques | 2006-2007 | Université de Lomé, Faculté des sciences économiques et de gestion (FASEG) | Lomé, Togo |

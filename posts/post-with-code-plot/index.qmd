@@ -1,6 +1,6 @@
 ---
 title: "Analyse et visualisation"
-author: "Nyuiadzi"
+author: "Nyuiadzi ZIKPI"
 date: "2026-07-06"
 categories: [code, analysis, visualization]
 image: "plot2.png"

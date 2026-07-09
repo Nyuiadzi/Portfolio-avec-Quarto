@@ -1,8 +1,8 @@
 {
-  "hash": "86a178c7c0db86fc92ec63c45b22709f",
+  "hash": "5123195e8c679ffe6052a94b850858c5",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Analyse et visualisation\"\nauthor: \"Nyuiadzi\"\ndate: \"2026-07-06\"\ncategories: [code, analysis, visualization]\nimage: \"plot2.png\"\n---\n\nDans cet article de vous présente une analyse et visualisation des commandes\n\n\n::: {.cell}\n\n```{.r .cell-code}\nProduit <- c(\"Mais\", \"Igname\", \"Haricot\", \"Orange\", \"Riz\")\nQuantite <- c(20, 50, 60, 90, 10)\n\nachat <- data.frame(\n  Produit = Produit,\n  Quantite = Quantite\n)\n\nachat\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n  Produit Quantite\n1    Mais       20\n2  Igname       50\n3 Haricot       60\n4  Orange       90\n5     Riz       10\n```\n\n\n:::\n:::\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nachat |> \nggplot(aes(x = Produit, y = Quantite, fill = \"Produit\"))+\n         geom_col()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n",
+    "markdown": "---\ntitle: \"Analyse et visualisation\"\nauthor: \"Nyuiadzi ZIKPI\"\ndate: \"2026-07-06\"\ncategories: [code, analysis, visualization]\nimage: \"plot2.png\"\n---\n\nDans cet article de vous présente une analyse et visualisation des commandes\n\n\n::: {.cell}\n\n```{.r .cell-code}\nProduit <- c(\"Mais\", \"Igname\", \"Haricot\", \"Orange\", \"Riz\")\nQuantite <- c(20, 50, 60, 90, 10)\n\nachat <- data.frame(\n  Produit = Produit,\n  Quantite = Quantite\n)\n\nachat\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n  Produit Quantite\n1    Mais       20\n2  Igname       50\n3 Haricot       60\n4  Orange       90\n5     Riz       10\n```\n\n\n:::\n:::\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nachat |> \nggplot(aes(x = Produit, y = Quantite, fill = \"Produit\"))+\n         geom_col()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n",
     "supporting": [
       "..\\..\\index_files"
     ],
