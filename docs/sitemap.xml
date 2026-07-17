@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-07-09T17:14:27.875Z</lastmod>
+    <lastmod>2026-07-17T01:18:26.827Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/resume.html</loc>
@@ -30,6 +30,6 @@
   </url>
   <url>
     <loc>https://your-website-url.example.com/docs/projects.html</loc>
-    <lastmod>2026-07-08T12:22:06.261Z</lastmod>
+    <lastmod>2026-07-09T17:50:19.036Z</lastmod>
   </url>
 </urlset>
